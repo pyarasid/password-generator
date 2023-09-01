@@ -63,27 +63,27 @@ hr{
 }
 
 #first-pass{
-   /* margin-left: 52px;
-    margin-top: 28px;*/
+    margin-left: 52px;
+    margin-top: 28px;
     width: 211px;
     height: 39px;
-   /* background: #273549;
+    background: #273549;
     border: none;
     border-radius: 6px;
     color: #55F991;
     font-family: 'Inter', sans-serif;
-    font-size: 18px;*/
+    font-size: 18px;
 }
 
 #second-pass{    
     
     width: 211px;
     height: 39px;
-   /* margin-left: 22px;
+   margin-left: 22px;
     background: #273549;
     border: none;
     border-radius: 6px;
     color: #55F991;
     font-family: 'Inter', sans-serif;
-    font-size: 18px;*/
+    font-size: 18px;
 }
