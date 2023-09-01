@@ -4,24 +4,24 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let firstPass=document.getElementById("first-pass")
 let secondPass=document.getElementById("second-pass")
-// let stringOne=""
-// let stringTwo=""
-let count=0
+let stringOne=""
+let stringTwo=""
+
 function newPassword(){
 
-        // for (let i=0; i<characters.length; i++){
+         for (let i=0; i<characters.length; i++){
             
-        //     let firstRandomNumber=Math.floor(Math.random()*characters.length)
-        //     stringOne+=(characters[firstRandomNumber])
+             let firstRandomNumber=Math.floor(Math.random()*characters.length)
+             stringOne+=(characters[firstRandomNumber])
             
-        //     let secondRandomNumber=Math.floor(Math.random()*characters.length)
-        //     stringTwo+=characters[secondRandomNumber]          
-        // }
+             let secondRandomNumber=Math.floor(Math.random()*characters.length)
+             stringTwo+=characters[secondRandomNumber]          
+         }
         
-        // firstPass.textContent=stringOne.slice(0,15)
-        // secondPass.textContent=stringTwo.slice(0,15)  
+         firstPass.textContent=stringOne.slice(0,15)
+         secondPass.textContent=stringTwo.slice(0,15)  
         
-        firstPass.textContent=Math.random()
+       
         
         
 }
