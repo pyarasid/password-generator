@@ -1,0 +1,91 @@
+body {
+    margin: 0;   
+   }
+
+.container{
+    height: 550px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1F2937;
+    background-size: cover;
+}
+
+.newpassword{
+    display: block;
+    height: 80px;
+    width: 354px;
+    margin-top: 0px;
+    margin-left: 52px;
+    padding-top: 115px;
+    font-size: 38px;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Karla', sans-serif;
+     
+}
+
+.newpass2ndline{
+    color: #4ADF86;
+       
+}
+
+.neveragain{
+    display: block;
+    width: 372px;
+    height: 28px;
+    margin-left: 52px;
+    color: #D5D4D8;
+    font-size: 20px;
+    margin-top: -8px;
+    font-family: 'Inter', sans-serif;
+}
+
+.new-btn{
+    display: block;
+    margin-left: 52px;
+    margin-top: 43px;
+    font-family: 'Inter', sans-serif;
+    width: 191px;
+    height: 42px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background: #10B981;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    width: 446px;
+    margin-left: 52px;
+    margin-top: 36px;
+    border: none;
+    border-top: 1px solid #2F3E53;
+}
+
+#first-pass{
+    margin-left: 52px;
+    margin-top: 28px;
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border: none;
+    border-radius: 6px;
+    color: #55F991;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+#second-pass{    
+    margin-top: 28px;
+    width: 211px;
+    height: 39px;
+    margin-left: 22px;
+    background: #273549;
+    border: none;
+    border-radius: 6px;
+    color: #55F991;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
